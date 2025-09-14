@@ -1,5 +1,52 @@
 # ❤️ Predicting Heart Disease Using Machine Learning  
 
+## Installation Guide
+
+To set up the environment and run this project, follow these steps:
+
+### 1. Clone the Repository
+```bash
+git clone <your-repo-link>
+cd Heart-diseases-classification
+```
+
+### 2. Create a Virtual Environment (recommended)
+Using Conda:
+```bash
+conda create --name heart-disease-env python=3.9
+conda activate heart-disease-env
+```
+
+Or using venv:
+```bash
+python -m venv heart-disease-env
+source heart-disease-env/bin/activate  # On Linux/Mac
+heart-disease-env\Scripts\activate   # On Windows
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Typical dependencies include:
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- jupyter
+
+### 4. Run Jupyter Notebook
+```bash
+jupyter notebook
+```
+
+Then open `Heart-diseases-classification.ipynb`.
+
+---
+
+
 This project explores how to leverage **Python-based machine learning** and **data science libraries** to build a predictive model that determines whether an individual is likely to have **heart disease** based on their medical attributes.  
 
 The goal is to apply a structured **data science workflow** to transform raw medical data into actionable insights and predictive power.  
